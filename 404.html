@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Meme Cat ($MEOW)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .error-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            background: var(--gradient-primary);
+            color: white;
+        }
+        .error-image {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 2rem;
+            animation: float 6s ease-in-out infinite;
+        }
+        .error-title {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .error-message {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .home-button {
+            background: white;
+            color: var(--primary-color);
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+        .home-button:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--box-shadow);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <img src="assets/images/sad-cat.png" alt="Sad Meme Cat" class="error-image">
+        <h1 class="error-title">404</h1>
+        <p class="error-message">Oops! This page has gone to chase laser pointers... 🐱</p>
+        <a href="/" class="home-button">Back to Homepage</a>
+    </div>
+</body>
+</html> 
